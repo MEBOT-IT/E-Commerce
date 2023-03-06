@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: cursive;
+    
+}
+.photoz{
+    height: 400px;
+    width: 80%;
+    background-size: 100% 100%;
+    background-color: white;
+    background-image: url("Photos/discount1.jpg");
+    animation: slider 20s infinite ease-in-out;
+    border-radius: 25px;
+}
+@keyframes slider{
+    25%{background-image: url("Photos/discount2.jpg");}
+    50%{background-image: url("Photos/Kurthas offer.jpg");}
+    75%{background-image: url("Photos/Winter sale offer.jpg");}
+}
+/* .photos{
+    height: 400px;
+    width: 80%;
+    background-size: 100% 100%;
+    background-color:black;
+    background-image: url("Photos/Slider1.jpg");
+    animation: photosslider 7s infinite ease-in-out;
+    border-radius: 25px;
+}
+@keyframes photosslider{
+    25%{background-image: url("Photos/Slider2.jpg");}
+    50%{background-image: url("Photos/Slider3.jpg");}
+    75%{background-image: url("Photos/Slider4.jpg");}
+} */
+
+.men img{
+    height: 300px;
+    width: 200px;
+}
+.women img{
+    height: 300px;
+    width: 200px;
+}
+.kids img{
+    height: 300px;
+    width: 200px;
+}
+.gadgets img{
+    height: 300px;
+    width: 200px;
+}
+.sec a{
+    text-decoration: none;
+    color: black;
+}
+header.wrapper{
+    width: 100%;
+    height: 38px;
+    background-color:rgb(255, 255, 255);
+    background-size: cover;
+    background-attachment: scroll;
+}
+nav{
+    width: 100%;
+    position:absolute;
+}
+nav ul{
+    background-color:rgb(168, 168, 168); 
+    box-shadow: -10px -10px 30px black,10px 10px 30px black;      
+    text-align: center;
+    margin: 0;
+}
+.logo{
+    position:absolute;
+    border-radius: 15em;
+    padding: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 3px;
+    font-size: 25px;    
+    font-weight: bold;
+}
+nav ul li{
+    display: inline-block;
+    padding: 78px 15px;
+    text-transform: capitalize;
+    font-size: 19px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    text-decoration: underline black;
+    font-size: 20px;
+}
+button{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#btn{
+    border-radius: 7px;
+    text-align: center;
+    height: 30px;
+}
+#b1{
+    border: none;
+    background: none;
+    font-size: 17px;
+    }
+#b1 :hover{
+    text-decoration: underline black;
+    font-size: 19px;
+    }
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: rgb(44, 43, 43);
+    padding: 70px 0;
+}
+.column{
+    width:25%;
+    padding: 0 15px;
+}
+.column h4{
+    font-size: 18px;
+    color:aliceblue;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    text-decoration:underline;
+    text-decoration-color: red;
+    
+}
+
+.column ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.column ul li a{
+    font-size: 15px;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: block;
+    font-weight: 300;
+    color:rgb(178, 175, 175);
+}
+.column ul li a:hover{
+    color:floralwhite;
+    padding-left: 5px;
+}
+.column .social-links a{
+    display: inline-block;
+    height:40px;
+    width:40px;
+    background-color: rgb(225,225,225,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+}
+.column .social-links a:hover{
+    color:gray;
+    background-color: white;
+}
+.rights{
+    font-size: 15px;
+    color:aliceblue;
+    text-transform: capitalize;
+}
+.content_img img{
+    height: 300px;
+    width: 200px;
+    margin-right: 30px;
+    border: 2px solid black;
+    filter: blur(1px);
+    display: inline-block;
+    box-shadow: -5px -5px 30px black,10px 10px 30px black;
+
+}
+.content_img img:hover{
+    transition: ease-in-out 0.1s;
+    height: 320px;
+    width:  220px ;
+    filter: blur(0px);
+    background-color: darkred;
+    /*transform: rotate(5deg);*/
+
+}
